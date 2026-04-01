@@ -14,7 +14,9 @@ CLeaRS is a comprehensive benchmark designed to investigate continual learning i
 ## Coming Soon
 
 -[ ] Benchmark dataset
+
 -[ ] Training & inference code
+
 -[ ] Model checkpoints
 
 ## Acknowledgement
