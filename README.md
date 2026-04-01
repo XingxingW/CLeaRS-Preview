@@ -13,15 +13,19 @@ CLeaRS is a comprehensive benchmark designed to investigate continual learning i
 
 ![teaser](CLeaRS-example.png)
 
+## Key Findings
+* RS VLMs suffer from catastrophic forgetting, influenced by transitions in tasks, instructions, and sensing modalities.
+* Existing continual learning methods struggle to balance stability and plasticity, and fail to deliver consistent gains over sequential fine-tuning across different settings and learning orders.
+* CLeaRS highlights the need for continual learning methods tailored to RS VLMs.
+
 ## Coming Soon
 
--[ ] Benchmark dataset
-
--[ ] Training & inference code
-
--[ ] Model checkpoints
+* Benchmark dataset
+* Training & inference code
+* Model checkpoints
 
 ## Acknowledgement
 
 Our CLeaRS dataset is built based on AID, VRSBench, SARDet-100K, SARLANG-1M, DroneVehicle, FireRisk, and RescueNet-VQA datasets.
+
 We are thankful to Qwen2.5-VL, MiniGPT-v2, LLaVA-1.5, GeoChat, and VHM for releasing their models and code as open-source contributions.
