@@ -11,7 +11,7 @@ Official repository for our paper:
 
 CLeaRS is a comprehensive benchmark designed to investigate continual learning in remote sensing vision-language models. It comprises 10 subsets with over 207k image-text pairs, covering diverse interpretation tasks, sensing modalities, and application scenarios. Based on CLeaRS, we define three evaluation protocols, namely long-horizon, modality-incremental, and task-incremental settings, to systematically assess model adaptability under evolving data streams.
 
-![teaser](CLeaRS-example.pdf)
+![teaser](CLeaRS-example.png)
 
 ## Coming Soon
 
