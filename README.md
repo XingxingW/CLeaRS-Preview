@@ -1,4 +1,4 @@
-# CLeaRS-Preview
+# CLeaRS
 
 Official repository for our paper: 
 
@@ -13,8 +13,6 @@ CLeaRS is a comprehensive benchmark designed to investigate continual learning i
 
 ![teaser](CLeaRS-example.png)
 
-[![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/cdllwhy/clears)
-
 ## Key Findings
 * RS VLMs suffer from catastrophic forgetting, influenced by transitions in tasks, instructions, and sensing modalities.
 * Existing continual learning methods struggle to balance stability and plasticity, and fail to deliver consistent gains over sequential fine-tuning across different settings and learning orders.
@@ -23,7 +21,8 @@ CLeaRS is a comprehensive benchmark designed to investigate continual learning i
 ## Datasets
 
 CLeaRS is built upon the following publicly released remote sensing datasets. Please download each subset from its official source and follow the corresponding license.
-The CLeaRS annotations are hosted on Hugging Face: **[cdllwhy/clears](https://huggingface.co/datasets/cdllwhy/clears)**.
+
+The CLeaRS annotations are hosted on Hugging Face: **[🤗Dataset](https://huggingface.co/datasets/cdllwhy/CLeaRS/tree/main)**.
 
 | Dataset | Source |
 | --- | --- |
@@ -47,18 +46,14 @@ CLeaRS/
 │   ├── DroneVehicle/           # https://github.com/VisDrone/DroneVehicle
 │   ├── FireRisk/               # https://github.com/CharmonyShen/FireRisk
 │   └── RescueNet-VQA/          # https://github.com/BinaLab/RescueNet-VQA
-├── annotations/
+└── annotations/
     ├── train/
     └── test/
 ```
 
 ## Coming Soon
 
-* Benchmark dataset
 * Training & inference code
-* Model checkpoints
-
-**Note:** The benchmark dataset is currently being prepared for release. If you need access to the dataset before its public release, please contact us via email (xingxingw@whu.edu.cn) for a private copy.
 
 ## Acknowledgement
 
