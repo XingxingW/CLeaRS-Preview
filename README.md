@@ -22,7 +22,7 @@ CLeaRS is a comprehensive benchmark designed to investigate continual learning i
 
 CLeaRS is built upon the following publicly released remote sensing datasets. Please download each subset from its official source and follow the corresponding license.
 
-The CLeaRS annotations are hosted on Hugging Face: **[🤗Dataset](https://huggingface.co/datasets/cdllwhy/CLeaRS/tree/main)**.
+The CLeaRS annotations are hosted on Hugging Face: **[🤗Dataset](https://huggingface.co/datasets/RS-CL/CLeaRS/tree/main)**.
 
 | Dataset | Source |
 | --- | --- |
