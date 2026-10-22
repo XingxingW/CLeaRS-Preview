@@ -1,4 +1,4 @@
-# CLeaRS-Preview
+# CLeaRS
 
 Official repository for our paper: 
 
@@ -16,15 +16,44 @@ CLeaRS is a comprehensive benchmark designed to investigate continual learning i
 ## Key Findings
 * RS VLMs suffer from catastrophic forgetting, influenced by transitions in tasks, instructions, and sensing modalities.
 * Existing continual learning methods struggle to balance stability and plasticity, and fail to deliver consistent gains over sequential fine-tuning across different settings and learning orders.
-* CLeaRS highlights the need for continual learning methods tailored to RS VLMs.
+* CLeaRS highlights the need for continual learning methods tailored for RS VLMs.
+
+## Datasets
+
+CLeaRS is built upon the following publicly released remote sensing datasets. Please download each subset from its official source and follow the corresponding license.
+
+The CLeaRS annotations are hosted on Hugging Face: **[🤗Dataset](https://huggingface.co/datasets/cdllwhy/CLeaRS/tree/main)**.
+
+| Dataset | Source |
+| --- | --- |
+| AID | https://captain-whu.github.io/AID/ |
+| VRSBench | https://huggingface.co/datasets/xiang709/VRSBench |
+| SARDet-100K | https://github.com/zcablii/SARDet_100K |
+| DroneVehicle | https://github.com/VisDrone/DroneVehicle |
+| FireRisk | https://github.com/CharmonyShen/FireRisk |
+| RescueNet-VQA | https://github.com/BinaLab/RescueNet-VQA |
+
+#### Example Data Organization
+
+All images are placed under `images/`, with one sub-folder per source dataset, and all annotation files are grouped under `annotations/`, split into `train/` and `test/`:
+
+```
+CLeaRS/
+├── images/
+│   ├── AID/                    # https://captain-whu.github.io/AID/
+│   ├── VRSBench/               # https://huggingface.co/datasets/xiang709/VRSBench
+│   ├── SARDet_100K/            # https://github.com/zcablii/SARDet_100K
+│   ├── DroneVehicle/           # https://github.com/VisDrone/DroneVehicle
+│   ├── FireRisk/               # https://github.com/CharmonyShen/FireRisk
+│   └── RescueNet-VQA/          # https://github.com/BinaLab/RescueNet-VQA
+└── annotations/
+    ├── train/
+    └── test/
+```
 
 ## Coming Soon
 
-* Benchmark dataset
 * Training & inference code
-* Model checkpoints
-
-**Note:** The benchmark dataset is currently being prepared for release. If you need access to the dataset before its public release, please contact us via email (xingxingw@whu.edu.cn) for a private copy.
 
 ## Acknowledgement
 
