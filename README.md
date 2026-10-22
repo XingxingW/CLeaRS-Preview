@@ -55,6 +55,8 @@ CLeaRS/
 
 * Training & inference code
 
+**Note:** The benchmark dataset is currently being prepared for release. If you need access to the dataset before its public release, please contact us via email (xingxingw@whu.edu.cn) for a private copy.
+
 ## Acknowledgement
 
 Our CLeaRS dataset is built based on AID, VRSBench, SARDet-100K, SARLANG-1M, DroneVehicle, FireRisk, and RescueNet-VQA datasets.
