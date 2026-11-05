@@ -8,7 +8,7 @@ csv_path = sys.argv[1] if len(sys.argv) > 1 else ("eval/example_summary.csv" if 
 
 primary_metrics = {
     "AID": "accuracy",
-    "VRS-Cap": "CIDEr",
+    "VRS-Cap": "normalized_CIDEr",
     "VRS-VG": "acc_@0.5",
     "VRS-VQA": "accuracy",
     "SAR-VG": "acc_@0.5",
