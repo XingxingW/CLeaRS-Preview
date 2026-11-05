@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 images/
 VLMEvalKit/
+eval_results/
+performance_matrix.csv

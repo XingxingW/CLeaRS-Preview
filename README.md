@@ -33,7 +33,7 @@ The CLeaRS annotations are hosted on Hugging Face: **[🤗Dataset](https://huggi
 | FireRisk | https://github.com/CharmonyShen/FireRisk |
 | RescueNet-VQA | https://github.com/BinaLab/RescueNet-VQA |
 
-#### Example Data Organization
+### Example Data Organization
 
 All images are placed under `images/`, with one sub-folder per source dataset, and all annotation files are grouped under `annotations/`, split into `train/` and `test/`:
 
@@ -51,9 +51,15 @@ CLeaRS/
     └── test/
 ```
 
-## Coming Soon
+## Evaluation
 
-* Training & inference code
+For detailed evaluation instructions, inference prompt templates, and continual learning metric computation, please refer to **[eval/quickstart.md](eval/quickstart.md)**.
+
+
+## Contact
+
+The benchmark annotations are publicly available at [🤗 cdllwhy/CLeaRS](https://huggingface.co/datasets/cdllwhy/CLeaRS/tree/main).
+For questions, bug reports, or collaboration, please contact us at xingxingw@whu.edu.cn.
 
 ## Acknowledgement
 
