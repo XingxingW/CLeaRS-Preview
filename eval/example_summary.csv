@@ -1,5 +1,5 @@
 ckpt,AID,VRS-Cap,VRS-VG,VRS-VQA,SAR-VG,SAR-VQA,IR-VG,IR-VQA,FireRisk,RescueNet
-metrics,accuracy,CIDEr,acc_@0.5,accuracy,acc_@0.5,accuracy,acc_@0.5,accuracy,accuracy,accuracy
+metrics,accuracy,normalized_CIDEr,acc_@0.5,accuracy,acc_@0.5,accuracy,acc_@0.5,accuracy,accuracy,accuracy
 AID,95.1,,,,,,,,,
 VRS-Cap,87.4,47.5,,,,,,,,
 VRS-VG,84.4,42.4,25.2,,,,,,,
