@@ -5,3 +5,4 @@ images/
 VLMEvalKit/
 eval_results/
 performance_matrix.csv
+.vscode/
